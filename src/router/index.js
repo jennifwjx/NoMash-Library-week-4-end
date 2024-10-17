@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import LoginView from '../views/LoginView.vue'
+import FirebaseSignupView from '@/views/FirebaseSignupView.vue'
+import FirebaseLoginView from '@/views/FirebaseLoginView.vue'
+import AddBookView from '@/views/AddBookView.vue'
+import BookList from '@/components/BookList.vue'
 
 
 
@@ -20,6 +24,27 @@ const routes = [
     path: '/about',
     name: 'About',
     component: AboutView
+  },
+  {
+    path: '/FireSignup',
+    name: 'FireSignup',
+    component: FirebaseSignupView
+  },
+  {
+    path: '/FireLogin',
+    name: 'FireLogin',
+    component: FirebaseLoginView
+  },
+  {
+    path: '/AddBook',
+    name: 'AddBook',
+    component: AddBookView
+  }
+  ,
+  {
+    path: '/BookList',
+    name: 'BookList',
+    component: BookList
   }
 ]
 
