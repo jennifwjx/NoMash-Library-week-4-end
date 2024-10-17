@@ -26,6 +26,15 @@
           <router-link to="/BookList" class="nav-link" active-class="active">Book list</router-link>
         </li>
         <li class="nav-item">
+          <router-link to="/BookCount" class="nav-link" active-class="active">Count Book</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/Weather" class="nav-link" active-class="active">Weather check</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/CountBook" class="nav-link" active-class="active">Book count</router-link>
+        </li>
+        <li class="nav-item">
           <button to="/logout" class="nav-link" @click="clearForm">Log Out
           </button>
         </li>
